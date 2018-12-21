@@ -6,20 +6,20 @@ Mysqldump through command prompt :
 	mysqldump -u root -p slimframework3 > D:/Download/slimframework3.sql
 	D:/Download/ = Directory path to save dump.
 
-2) BACKUP ALL DATABASE (STRUCTURE AND DATA)
+BACKUP ALL DATABASE (STRUCTURE AND DATA)
 
 	mysqldump -u username -p –all-databases > D:\Download\alldb.sql
 	OR
 	mysqldump -u username -p -A > D:\Download\alldb.sql
 
 
-3) BACKUP ALL DATABASE (STRUCTURE ONLY)
+BACKUP ALL DATABASE (STRUCTURE ONLY)
 
 	mysqldump -u username -p –all-databases –no-data > D:\Download\allstructure.sql
 	OR
 	mysqldump -u username -p -A -d > D:\Download\allstructure.sql
 
 
-4) To back up from a remote server, add the -h argument to declare the host address, for example:
+To back up from a remote server, add the -h argument to declare the host address, for example:
 
 	mysqldump -u root -h 182.168.0.120 -p -A > D:\Download\alldb.sql
