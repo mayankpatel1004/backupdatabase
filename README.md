@@ -1,4 +1,4 @@
-1)	Mysqldump through command prompt : 
+Mysqldump through command prompt : 
 
 	go to bin directory example :
 	cd D:\wamp64\bin\mysql\mysql5.7.19\bin
